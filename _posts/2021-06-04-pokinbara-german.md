@@ -16,7 +16,9 @@ picture: !!binary |
 ```
  <h4>{{ post.tag[0] }}</h4>
  <img src="{{ post.picture }}"/>
-# My text
+#My text
+
+A paragraph with some text and a [link](http://hakim.se).
 
 **Hello world**, this is my first Jekyll blog post.
 
