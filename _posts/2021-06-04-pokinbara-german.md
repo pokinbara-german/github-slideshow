@@ -10,14 +10,25 @@ picture: !!binary |
 ---
  <h4>{{ site.tags[0] }}</h4>
  <img src="{{ post.picture }}"/>
- <textarea data-template>
-    ```js [1-2|3|4]
-    let a = 1;
-    let b = 2;
-    let c = x => 1 + 2 + x;
-    c(3);
-    ```
-  </textarea>
+<pre><code data-line-numbers="3-5|8-10|13-15">
+<table>
+  <tr>
+    <td>Apples</td>
+    <td>$1</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Oranges</td>
+    <td>$2</td>
+    <td>18</td>
+  </tr>
+  <tr>
+    <td>Kiwi</td>
+    <td>$3</td>
+    <td>1</td>
+  </tr>
+</table>
+</code></pre>
 
 A paragraph with some text and a [link](http://hakim.se).
 
