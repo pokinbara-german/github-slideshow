@@ -1,6 +1,7 @@
 ---
 layout: slide
 title: "Welcome to our second slide!"
+hint: "my hint"
 ```js [1-2|3|4]
     let a = 1;
     let b = 2;
