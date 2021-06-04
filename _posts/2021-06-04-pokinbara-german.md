@@ -8,6 +8,12 @@ picture: !!binary |
   ar3xxbJ9p0qa7R0YxwzaFME
   1IAADs=
 ---
+<pre><code><script type="text/template">
+sealed class Either<out A, out B> {
+  data class Left<out A>(val a: A) : Either<A, Nothing>()
+  data class Right<out B>(val b: B) : Either<Nothing, B>()
+}
+</script></code></pre>
  <h4>{{ site.tags[0] }}</h4>
  <img src="{{ post.picture }}"/>
 <pre><code data-line-numbers="4-6|9-11|14-16">
