@@ -10,7 +10,7 @@ picture: !!binary |
 ---
  <h4>{{ site.tags[0] }}</h4>
  <img src="{{ post.picture }}"/>
-<pre><code data-line-numbers="3-5|8-10|13-15">
+<pre><code data-line-numbers="4-6|9-11|14-16">
 <table>
   <tr>
     <td>Apples</td>
