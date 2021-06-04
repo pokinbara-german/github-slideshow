@@ -14,9 +14,6 @@ picture: !!binary |
     let c = x => 1 + 2 + x;
     c(3);
 ```
-<h4>{{ post.tag }}</h4>
-<img src="{{ post.picture }}"/>
-    
 # My text
 
 **Hello world**, this is my first Jekyll blog post.
