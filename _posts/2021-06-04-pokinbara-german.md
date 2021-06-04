@@ -8,15 +8,16 @@ picture: !!binary |
   ar3xxbJ9p0qa7R0YxwzaFME
   1IAADs=
 ---
-```js [1-2|3|4]
+ <h4>{{ site.tags[0] }}</h4>
+ <img src="{{ post.picture }}"/>
+ <textarea data-template>
+    ```js [1-2|3|4]
     let a = 1;
     let b = 2;
     let c = x => 1 + 2 + x;
     c(3);
-```
- <h4>{{ post.tag[0] }}</h4>
- <img src="{{ post.picture }}"/>
-#My text
+    ```
+  </textarea>
 
 A paragraph with some text and a [link](http://hakim.se).
 
